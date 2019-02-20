@@ -1,0 +1,32 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate C:\Users\Avnish\Desktop\OFDM_Project\ofdm_fft.qsys --block-symbol-file --output-directory=C:\Users\Avnish\Desktop\OFDM_Project\ofdm_fft --family="Cyclone IV GX" --part=EP4CGX150DF31C7
+Progress: Loading OFDM_Project/ofdm_fft.qsys
+Progress: Reading input file
+Progress: Adding fft_ii_0 [altera_fft_ii 17.1]
+Progress: Parameterizing module fft_ii_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: ofdm_fft.fft_ii_0: Radix-2 digit reverse implied
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate C:\Users\Avnish\Desktop\OFDM_Project\ofdm_fft.qsys --synthesis=VERILOG --output-directory=C:\Users\Avnish\Desktop\OFDM_Project\ofdm_fft\synthesis --family="Cyclone IV GX" --part=EP4CGX150DF31C7
+Progress: Loading OFDM_Project/ofdm_fft.qsys
+Progress: Reading input file
+Progress: Adding fft_ii_0 [altera_fft_ii 17.1]
+Progress: Parameterizing module fft_ii_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: ofdm_fft.fft_ii_0: Radix-2 digit reverse implied
+Info: ofdm_fft: Generating ofdm_fft "ofdm_fft" for QUARTUS_SYNTH
+Info: fft_ii_0: --- add file: ofdm_fft_fft_ii_0_opt_twi1.hex
+Info: fft_ii_0: --- add file: ofdm_fft_fft_ii_0_opt_twr1.hex
+Info: fft_ii_0: "ofdm_fft" instantiated altera_fft_ii "fft_ii_0"
+Info: ofdm_fft: Done "ofdm_fft" with 2 modules, 44 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis
